@@ -61,6 +61,11 @@ body {
   transition: height 0.3s ease;
 }
 
+.container a {
+  text-decoration: none;
+  color: rgba(183, 110, 121);
+}
+
 .container:hover {
   height: 300px;
 }
@@ -68,6 +73,8 @@ body {
 .row {
   padding: 10px;
   border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
 }
 
 .row:hover {
