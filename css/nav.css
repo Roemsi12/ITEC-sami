@@ -1,0 +1,60 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+.profile-pic {
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  width: 2vw;
+  height: 2vw;
+  color: white;
+  font-size: 100%;
+  margin-left: 1.5vw;
+}
+
+nav {
+  justify-content: end;
+  height: 50px;
+  padding-right: 2vw;
+  border-bottom: 0.0625rem solid #e0e0e0;
+}
+
+.island-div {
+  height: 60px;
+  text-decoration: none;
+}
+
+.island {
+  width: 200px;
+  height: 30px;
+  background-color: grey;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  font-size: 20px;
+  color: white;
+}
+
+.island:hover {
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.a-i-c {
+  align-items: center;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.f-d-c {
+  flex-direction: column;
+}
