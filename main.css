@@ -47,6 +47,24 @@
 }
 
 .style-2 {
-  height: 100%;
-  font-size: 50px;
+  height: 1fr;
+}
+
+.plus-svg-2 {
+  transform: scale(2);
+}
+
+.bt-plus {
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  transition: background-color 1s, transform 1s linear ease;
+}
+
+.bt-plus:hover {
+  background-color: #e0e0e078;
+  cursor: pointer;
+  transform: translateY(-10px);
 }
