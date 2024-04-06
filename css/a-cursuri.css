@@ -1,5 +1,6 @@
 body {
   color: rgba(183, 110, 121);
+  background-color: #eae8e5;
 }
 
 .wrapper {
@@ -34,6 +35,7 @@ body {
 .search-bar {
   height: 2rem;
   width: 100%;
+  background-color: #eae8e5;
 }
 
 .part-down {
