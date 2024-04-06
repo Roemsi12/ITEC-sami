@@ -32,6 +32,12 @@
   height: 55vh;
   width: 90%;
 }
+
+.section-div-mid p {
+  font-size: 50px;
+  margin: 0;
+}
+
 .cheeseburber-texto {
   color: rgb(0, 100, 0);
 }
