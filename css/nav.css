@@ -28,12 +28,12 @@ nav {
 .island {
   width: 200px;
   height: 30px;
-  background-color: grey;
+  background-color: rgba(229, 228, 226);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   font-size: 20px;
-  color: white;
+  color: rgba(183, 110, 121);
   margin: 0;
   text-decoration: none;
 }
