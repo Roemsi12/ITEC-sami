@@ -25,6 +25,10 @@ nav {
   height: 60px;
 }
 
+.island-div p {
+  margin: 0;
+}
+
 .island {
   width: 200px;
   height: 30px;
