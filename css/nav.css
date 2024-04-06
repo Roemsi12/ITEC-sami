@@ -37,7 +37,8 @@ nav {
   border-bottom-left-radius: 5px;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   font-size: 20px;
-  color: rgba(183, 110, 121);
+  color: rgba(0, 100, 0);
+  font-family: "Coming Soon";
   margin: 0;
   text-decoration: none;
 }
