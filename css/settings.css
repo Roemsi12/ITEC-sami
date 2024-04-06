@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+  height: 80vh;
+}
+
+.filler-div {
+  flex: 1;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 12vh;
+}
+
+.div-right {
+  flex: 1;
+  align-items: center;
+}
+
+.div-left {
+  flex: 1;
+  align-items: center;
+}
+
+.section-div {
+  border: 2px solid #8b8000;
+  border-radius: 20px;
+  height: 65vh;
+  width: 25vw;
+  /* margin-bottom: 5vh; */
+}
+
+.section-div-mid {
+  height: 55vh;
+  width: 90%;
+}
+.cheeseburber-texto {
+  color: rgb(0, 100, 0);
+}
+
+.cheeseburber-fonto {
+  font-family: "Coming Soon", cursive;
+}
+
+.cheeseburber-size {
+  font-size: 40px;
+}
+
+.cheeseburber-size-cs {
+  font-size: 55px;
+}
+
+#blub-div {
+  justify-content: center;
+}
+
+.spacelul {
+  padding: 1vw;
+}
