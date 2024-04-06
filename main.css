@@ -1,0 +1,52 @@
+.flex {
+  display: flex;
+}
+
+.a-i-c {
+  align-items: center;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.f-d-c {
+  flex-direction: column;
+}
+
+.wrapper {
+  padding: 3vw;
+  padding-top: 0;
+}
+
+.classroom-div {
+  border: 0.0625rem solid #e0e0e0;
+  border-radius: 20px;
+  padding: 5vw 10vw;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 5vh;
+}
+
+.classroom-div p {
+  font-size: 300%;
+  margin: 0;
+}
+
+.bt-wrapper > div {
+  margin: 0 2vw;
+}
+
+.style-1 {
+  height: 20vh;
+  width: 30vw;
+  border: 0.0625rem solid #e0e0e0;
+  border-radius: 10%;
+  text-decoration: none;
+  color: black;
+}
+
+.style-2 {
+  height: 100%;
+  font-size: 50px;
+}
