@@ -44,7 +44,7 @@ body {
   border: 0.0625rem solid #e0e0e0;
   height: 1rem;
   padding: 0.9rem 6rem;
-  margin-top: 10px;
+  margin: 10px 0;
   font-size: 20px;
   border-radius: 5px;
 }
@@ -92,6 +92,7 @@ body {
 
 .container-fav {
   display: flex;
+  flex-direction: column;
 }
 
 .column {
@@ -104,9 +105,15 @@ body {
   border-bottom-right-radius: 10%;
 }
 
+.column img {
+  height: 15px;
+  width: 15px;
+}
+
 .hr-column {
   flex: 0 0 auto;
-  width: 2px;
+  width: 80%;
+  height: 2px;
   background-color: rgba(183, 110, 121);
   margin: 5px;
   border: none;
