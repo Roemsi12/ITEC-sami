@@ -1,3 +1,7 @@
+body {
+  background-color: #eae8e5;
+}
+
 .flex {
   display: flex;
 }
@@ -20,7 +24,7 @@
 }
 
 .classroom-div {
-  border: 2px solid #8B8000;
+  border: 2px solid #8b8000;
   border-radius: 20px;
   padding: 5vw 10vw;
   justify-content: space-between;
@@ -39,7 +43,7 @@
 .style-1 {
   height: 20vh;
   width: 30vw;
-  border: 2px solid #8B8000;
+  border: 2px solid #8b8000;
   border-radius: 10%;
   text-decoration: none;
   color: black;
@@ -69,11 +73,11 @@
 }
 
 .cheeseburber-texto {
-color: rgb(0,100,0)
+  color: rgb(0, 100, 0);
 }
 
 .cheeseburber-fonto {
-  font-family: 'Coming Soon', cursive;
+  font-family: "Coming Soon", cursive;
 }
 
 .cheeseburber-size {
@@ -83,4 +87,3 @@ color: rgb(0,100,0)
 .cheeseburber-size-cs {
   font-size: 55px;
 }
-
