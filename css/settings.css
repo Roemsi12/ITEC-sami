@@ -6,8 +6,7 @@
 .filler-div {
   flex: 1;
   align-items: center;
-  justify-content: end;
-  padding-bottom: 12vh;
+  justify-content: center;
 }
 
 .div-right {
@@ -29,7 +28,7 @@
 }
 
 .section-div-mid {
-  height: 55vh;
+  height: fit-content;
   width: 90%;
 }
 
@@ -60,4 +59,14 @@
 
 .spacelul {
   padding: 1vw;
+}
+
+.pfp-div {
+  justify-content: space-between;
+  height: 20%;
+}
+
+.pfp-div img {
+  border-radius: 50%;
+  height: 100%;
 }
