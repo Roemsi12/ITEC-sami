@@ -23,7 +23,6 @@ nav {
 
 .island-div {
   height: 60px;
-  text-decoration: none;
 }
 
 .island {
@@ -35,6 +34,8 @@ nav {
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   font-size: 20px;
   color: white;
+  margin: 0;
+  text-decoration: none;
 }
 
 .island:hover {
