@@ -70,7 +70,7 @@ nav {
 }
 
 .profile-pic img {
-  height: 240%;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -116,11 +116,6 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
   border-radius: 10px;
-}
-
-.dark-mode {
-  color: #ddd !important; /* Text color in dark mode */
-  background-color: #222 !important; /* Background color in dark mode */
 }
 
 .cheeseburber-texto {
