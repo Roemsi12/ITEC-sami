@@ -85,3 +85,76 @@ body {
   border: 1px solid #ccc;
   background-color: #f9f9f9;
 }
+
+.list-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #eae8e5;
+  margin-bottom: 5px; /* Add space between items */
+  border-radius: 20px; /* Add border radius */
+}
+
+/* Add a separator line between items */
+.list-item + .list-item {
+  border-top: 1px solid #ccc;
+}
+
+.stacked-list {
+  color: rgb(0, 100, 0);
+  font-family: "Coming Soon", cursive; /* Optional styling for the container */
+}
+
+.list-title {
+  padding-left: 1vw;
+  font-size: 24px;
+  margin-bottom: 10px; /* Add space between title and list */
+}
+.stacked-list-container {
+  color: rgb(0, 100, 0);
+  font-family: "Coming Soon", cursive; /* Optional styling for the container */
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0; /* Spațiu între linie și elementele listei */
+}
+
+.sublist-title {
+  padding-left: 0.5vw;
+  font-size: 18px;
+  margin-top: 15px; /* Spațiu între titlul sub-listei și elementele listei */
+}
+.column {
+  flex: 1; /* Each column takes equal width */
+  padding: 0 10px; /* Add padding for spacing */
+  border-right: 1px solid #ccc; /* Add a right border between columns */
+}
+.column:last-child {
+  border-right: none;
+}
+.separate-div::after {
+  content: "";
+  flex: 0 0 auto;
+  border-left: 1px solid #ccc;
+}
+.column:not(:last-child) {
+  border-right: 1px solid #ccc; /* Add a right border between columns */
+}
+.split-div {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  height: 4 0px; /* Set the height of the parent div */
+}
+
+.split-div > div {
+  flex-grow: 1;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  height: 750%; /* Extend the height of the child divs to fill the parent div */
+}
+
+.split-div > div:last-child {
+  border-right: none;
+}
