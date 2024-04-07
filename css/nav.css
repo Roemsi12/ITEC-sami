@@ -1,6 +1,9 @@
 body {
   min-height: 100vh;
   margin: 0;
+  font-family: "Coming soon", cursive;
+  background-color: #eae8e5;
+  color: rgb(0, 100, 0) w;
 }
 
 nav {
@@ -21,9 +24,9 @@ nav {
 .island {
   width: 200px;
   height: 30px;
-  background-color: rgba(229, 228, 226);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  background-color: rgba(229, 228, 226);
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
   font-size: 20px;
   font-family: "Coming Soon", cursive;
@@ -60,7 +63,6 @@ nav {
   border-radius: 50%;
   width: 2vw;
   height: 2vw;
-  color: white;
   font-size: 100%;
   margin-left: 1.5vw;
   padding: 8px;
@@ -87,7 +89,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  top: 110%;
+  top: 100%;
   left: -150%;
   background-color: #fff;
   min-width: 160px;
@@ -114,4 +116,25 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
   border-radius: 10px;
+}
+
+.dark-mode {
+  color: #ddd !important; /* Text color in dark mode */
+  background-color: #222 !important; /* Background color in dark mode */
+}
+
+.cheeseburber-texto {
+  color: rgb(0, 100, 0);
+}
+
+.cheeseburber-fonto {
+  font-family: "Coming Soon", cursive;
+}
+
+.cheeseburber-size {
+  font-size: 40px;
+}
+
+.cheeseburber-size-cs {
+  font-size: 55px;
 }
