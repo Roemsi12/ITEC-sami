@@ -31,7 +31,7 @@ body {
 }
 
 .section-div-mid {
-  height: fit-content;
+  height: 55vh;
   width: 90%;
 }
 
@@ -54,4 +54,34 @@ body {
 
 .cheeseburber-size-cs {
   font-size: 55px;
+}
+
+.a-i-c {
+  align-items: center;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.f-d-c {
+  flex-direction: column;
+}
+
+.a-i-f {
+  align-items: start;
+}
+
+.dropdown-content {
+  display: none; /* Initially hide the dropdown content */
+}
+
+.dropdown-content.show {
+  display: block; /* Show the dropdown content when .show class is applied */
+}
+
+.dropdown-item {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
 }
